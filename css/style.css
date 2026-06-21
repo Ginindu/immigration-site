@@ -18,6 +18,11 @@
 body.dark-mode {
     background: #0b1220;
     color: #e2e8f0;
+    --bs-primary: #3b82f6;
+    --bs-secondary: #ff6b8b;
+    --bs-light: #102545;
+    --bs-white: #0f1a33;
+    --bs-dark: #f8fafc;
 }
 
 body.dark-mode a {
@@ -40,9 +45,14 @@ body.dark-mode .training-item,
 body.dark-mode .office-item,
 body.dark-mode .bg-white,
 body.dark-mode .contact,
-body.dark-mode .page-header,
 body.dark-mode .modal-content {
     background: #0f1a33 !important;
+    color: #e2e8f0 !important;
+}
+
+body.dark-mode .page-header {
+    background-blend-mode: multiply !important;
+    background-color: #0b1220 !important;
     color: #e2e8f0 !important;
 }
 
@@ -61,16 +71,140 @@ body.dark-mode .btn-primary {
     color: #fff !important;
 }
 
+body.dark-mode .btn-primary:hover {
+    background: #3b82f6 !important;
+    border-color: #3b82f6 !important;
+    color: #fff !important;
+}
+
 body.dark-mode .btn-secondary {
     background: #1e2f52 !important;
     color: #93c5fd !important;
     border-color: transparent !important;
 }
 
+body.dark-mode .btn-secondary:hover {
+    background: #2e3f62 !important;
+    color: #bae6fd !important;
+}
+
 body.dark-mode .navbar-light .navbar-nav .nav-link.active,
 body.dark-mode .navbar-light .navbar-nav .nav-link:hover {
     color: #7dd3fc !important;
 }
+
+/* High contrast overrides for Bootstrap text utilities in dark mode */
+body.dark-mode .text-primary {
+    color: #93c5fd !important;
+}
+
+body.dark-mode .text-secondary {
+    color: #ff8fa3 !important;
+}
+
+body.dark-mode .text-dark {
+    color: #f8fafc !important;
+}
+
+body.dark-mode .text-muted {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .text-body {
+    color: #cbd5e1 !important;
+}
+
+/* Sticky header navigation dark mode override */
+body.dark-mode .sticky-top .navbar-light {
+    background: #07101f !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Dropdown Menu overrides in dark mode */
+body.dark-mode .dropdown-menu {
+    background-color: #0f1a33 !important;
+    border-color: #1e2f52 !important;
+}
+
+body.dark-mode .dropdown-item {
+    color: #e2e8f0 !important;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background-color: #102545 !important;
+    color: #7dd3fc !important;
+}
+
+/* Form input elements overrides in dark mode */
+body.dark-mode .form-control {
+    background-color: #0f1a33 !important;
+    color: #e2e8f0 !important;
+    border-color: #1e2f52 !important;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #64748b !important;
+}
+
+body.dark-mode .form-control:focus {
+    background-color: #102545 !important;
+    color: #fff !important;
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Accordion overrides in dark mode */
+body.dark-mode .accordion-item {
+    background-color: #0f1a33 !important;
+    border-color: #1e2f52 !important;
+    color: #e2e8f0 !important;
+}
+
+body.dark-mode .accordion-button {
+    background-color: #0f1a33 !important;
+    color: #e2e8f0 !important;
+}
+
+body.dark-mode .accordion-button:not(.collapsed) {
+    background-color: #102545 !important;
+    color: #93c5fd !important;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12) !important;
+}
+
+body.dark-mode .accordion-button::after {
+    filter: invert(1) grayscale(1) brightness(2) !important;
+}
+
+body.dark-mode .accordion-body {
+    background-color: #0f1a33 !important;
+    color: #cbd5e1 !important;
+}
+
+/* Close button filter override in dark mode */
+body.dark-mode .btn-close {
+    filter: invert(1) grayscale(1) brightness(2) !important;
+}
+
+/* Modal header/footer border overrides in dark mode */
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer {
+    border-color: #1e2f52 !important;
+}
+
+/* Owl Carousel indicators override in dark mode */
+body.dark-mode .owl-dot span {
+    background: #1e2f52 !important;
+}
+
+body.dark-mode .owl-dot.active span {
+    background: #0b66ff !important;
+}
+
+/* Map iframe dark mode styling filter */
+body.dark-mode iframe {
+    filter: grayscale(1) invert(0.92) hue-rotate(180deg) brightness(0.9) contrast(1.15) !important;
+}
+
 
 .announcement-cards {
     margin-top: -70px;
