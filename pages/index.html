@@ -63,34 +63,31 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                    <h1 class="display-5 text-secondary m-0"><img src="../img/brand-logo.png" class="img-fluid" alt="">Apex-Trust-Ardent</h1>
-                <!-- <img src="../img/logo.png" alt="Logo"> -->
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="display-5 text-secondary m-0"><img src="../img/brand-logo.png" class="img-fluid" alt="">Apex-Trust-Ardent</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
+                <span class="fa fa-bars"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Pages</span></a>
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Services</span></a>
                         <div class="dropdown-menu m-0">
                             <a href="canada.html" class="dropdown-item">Canada Immigration</a>
                             <a href="other-countries.html" class="dropdown-item">Other Countries</a>
                             <a href="legal.html" class="dropdown-item">Legal Services</a>
-                            <a href="testimonial.html" class="dropdown-item">Success Stories</a>
-                            <a href="career.html" class="dropdown-item">Career</a>
-                            <a href="consultation.html" class="dropdown-item">Consultation</a>
                         </div>
                     </div>
+                    <a href="consultation.html" class="nav-item nav-link">Consultation</a>
+                    <a href="career.html" class="nav-item nav-link">Career</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                 <button id="themeToggle" class="btn btn-secondary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
-                <a href="" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
+                <a href="consultation.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
             </div>
         </nav>
     </div>
@@ -883,13 +880,20 @@
         </div>
     </div>
     <!-- Footer Start -->
-    <footer class="footer-new">
+    <footer class="footer-new footer">
         <!-- Hero Tagline -->
         <div class="footer-tagline">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
                         <h2 class="footer-headline">Your global journey<br>starts here<span class="footer-dot">.</span></h2>
+                    </div>
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <h5 class="text-white mb-3">Subscribe to our Newsletter</h5>
+                        <div class="position-relative w-100">
+                            <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5 text-white" type="email" placeholder="Enter your email">
+                            <button type="button" class="btn btn-secondary position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -908,12 +912,12 @@
                         <ul class="footer-link-list">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">Services</a></li>
                             <li><a href="canada.html">Canada Immigration</a></li>
                             <li><a href="other-countries.html">Other Countries</a></li>
                             <li><a href="legal.html">Legal Services</a></li>
-                            <li><a href="testimonial.html">Success Stories</a></li>
+                            <li><a href="consultation.html">Consultation</a></li>
                             <li><a href="career.html">Career</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -921,8 +925,6 @@
                     <div class="col-lg-2 col-md-6">
                         <p class="footer-section-label">Discover</p>
                         <ul class="footer-link-list">
-                            <li><a href="consultation.html">Consultation</a></li>
-                            <li><a href="contact.html">Contact</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">FAQs</a></li>
@@ -959,7 +961,7 @@
                             <p>Speak with our immigration experts today</p>
                             <i class="fas fa-arrow-right footer-cta-arrow"></i>
                         </div>
-                        <div class="footer-cta-card" onclick="window.location='service.html'">
+                        <div class="footer-cta-card" onclick="window.location='consultation.html'">
                             <h5>Check Your Eligibility</h5>
                             <p>Explore the right visa pathway for you</p>
                             <i class="fas fa-arrow-right footer-cta-arrow"></i>
@@ -997,10 +999,11 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
+    <!-- Chatbot Widget -->
     <button class="chatbot-toggle" aria-label="Open chat"><i class="fas fa-comments"></i></button>
     <div class="chatbot-widget" aria-live="polite" aria-label="Chatbot window">
         <div class="chatbot-header">
-            <span>Gen-Ardent Assistant</span>
+            <h5 class="m-0 text-white"><i class="fas fa-robot me-2"></i>Gen-Ardent Assistant</h5>
             <button type="button" class="btn btn-sm btn-light chatbot-close" aria-label="Close chat"><i class="fas fa-times"></i></button>
         </div>
         <div class="chatbot-body p-3">
