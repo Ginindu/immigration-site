@@ -1001,6 +1001,15 @@ body.dark-mode .chatbot-input input {
 
 .country .country-item {
     position: relative;
+    margin-top: 50px;
+}
+
+.country .country-item .country-flag-icon {
+    background: var(--bs-primary);
+    border: 5px solid var(--bs-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .country .country-item::after {
@@ -1696,3 +1705,24 @@ body.dark-mode .chatbot-input input {
 }
 
 /*** copyright end ***/
+
+/*** Floating Theme Toggle ***/
+.theme-toggle-float {
+    position: fixed;
+    right: 85px;
+    bottom: 30px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 99;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.theme-toggle-float:hover {
+    transform: scale(1.1);
+}

@@ -83,7 +83,7 @@
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                <button id="themeToggle" class="btn btn-secondary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+                <button class="btn btn-secondary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3 theme-toggle-btn" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
                 <a href="consultation.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
             </div>
         </nav>
@@ -121,16 +121,72 @@
     </div>
 
     <div class="container py-5">
-        <h3>Current Openings</h3>
-        <p>If you are interested in joining our team, submit your application below or email <a href="mailto:hr@apextrustardent.lk">hr@apextrustardent.lk</a>.</p>
-        <div class="bg-white rounded shadow p-4 mt-4">
+        <h3 class="mb-4">Current Openings</h3>
+        <p class="mb-5">If you are interested in joining our team, browse our open positions below and submit your application or email <a href="mailto:hr@apextrustardent.lk">hr@apextrustardent.lk</a>.</p>
+        
+        <div class="row g-4 mb-5">
+            <!-- Job Card 1 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="card h-100 border-0 shadow-sm p-4 office-item">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-primary text-white py-2 px-3 rounded-pill">Full-Time</span>
+                        <span class="text-muted"><i class="fas fa-map-marker-alt text-secondary me-1"></i>Colombo</span>
+                    </div>
+                    <h4 class="mb-3 text-dark">Immigration Counsellor</h4>
+                    <p class="text-body mb-4">Provide expert consultation on Canadian Express Entry, Provincial Nominee Programs (PNPs), study permits, and family sponsorship programs.</p>
+                    <h6 class="mb-2">Requirements:</h6>
+                    <ul class="text-muted ps-3 mb-4">
+                        <li>2+ years of experience in Canadian immigration consulting.</li>
+                        <li>Outstanding verbal and written English communication skills.</li>
+                    </ul>
+                    <button class="btn btn-outline-secondary rounded-pill mt-auto apply-job-btn" data-job="Immigration Counsellor">Apply Now</button>
+                </div>
+            </div>
+            <!-- Job Card 2 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card h-100 border-0 shadow-sm p-4 office-item">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-primary text-white py-2 px-3 rounded-pill">Full-Time</span>
+                        <span class="text-muted"><i class="fas fa-map-marker-alt text-secondary me-1"></i>Colombo</span>
+                    </div>
+                    <h4 class="mb-3 text-dark">Legal Associate (Immigration)</h4>
+                    <p class="text-body mb-4">Assist in drafting administrative reviews, visa appeals, refugee claims, and legal briefs. Research case law and regulatory updates.</p>
+                    <h6 class="mb-2">Requirements:</h6>
+                    <ul class="text-muted ps-3 mb-4">
+                        <li>Bachelor of Laws (LLB) or equivalent legal qualification.</li>
+                        <li>Experience in visa appeal procedures and file review.</li>
+                    </ul>
+                    <button class="btn btn-outline-secondary rounded-pill mt-auto apply-job-btn" data-job="Legal Associate (Immigration)">Apply Now</button>
+                </div>
+            </div>
+            <!-- Job Card 3 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="card h-100 border-0 shadow-sm p-4 office-item">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="badge bg-primary text-white py-2 px-3 rounded-pill">Full-Time</span>
+                        <span class="text-muted"><i class="fas fa-map-marker-alt text-secondary me-1"></i>Galle</span>
+                    </div>
+                    <h4 class="mb-3 text-dark">Client Services Officer</h4>
+                    <p class="text-body mb-4">Serve as the first point of contact for prospective clients. Handle phone/email inquiries, book assessments, and maintain CRM databases.</p>
+                    <h6 class="mb-2">Requirements:</h6>
+                    <ul class="text-muted ps-3 mb-4">
+                        <li>Fluency in English and Sinhala/Tamil.</li>
+                        <li>1+ years of experience in customer support or front office.</li>
+                    </ul>
+                    <button class="btn btn-outline-secondary rounded-pill mt-auto apply-job-btn" data-job="Client Services Officer">Apply Now</button>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mb-4" id="applySection">Submit Your Application</h3>
+        <div class="bg-white rounded shadow p-4">
             <form id="careerForm">
                 <div class="row g-3">
                     <div class="col-md-6"><input name="fullName" class="form-control" placeholder="Full name" required></div>
                     <div class="col-md-6"><input name="email" type="email" class="form-control" placeholder="Email" required></div>
-                    <div class="col-12"><input name="position" class="form-control" placeholder="Position applied for"></div>
+                    <div class="col-12"><input name="position" id="positionInput" class="form-control" placeholder="Position applied for" required></div>
                     <div class="col-12"><textarea name="cover" class="form-control" placeholder="Cover letter" style="height:120px"></textarea></div>
-                    <div class="col-12"><label class="form-label">Upload CV</label><input class="form-control" type="file" name="cv" accept=".pdf,.doc,.docx"></div>
+                    <div class="col-12"><label class="form-label">Upload CV</label><input class="form-control" type="file" name="cv" accept=".pdf,.doc,.docx" required></div>
                     <div class="col-12"><button type="submit" class="btn btn-primary">Submit Application</button></div>
                 </div>
             </form>
@@ -255,6 +311,7 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <button class="btn btn-secondary btn-lg-square theme-toggle-btn theme-toggle-float" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
 
     <!-- Chatbot Widget -->
     <button class="chatbot-toggle" aria-label="Open chat"><i class="fas fa-comments"></i></button>

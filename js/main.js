@@ -107,17 +107,17 @@
     function applyTheme(theme) {
         if (theme === 'dark') {
             $('body').addClass('dark-mode');
-            $('#themeToggle i').removeClass('fa-moon').addClass('fa-sun');
+            $('.theme-toggle-btn i').removeClass('fa-moon').addClass('fa-sun');
         } else {
             $('body').removeClass('dark-mode');
-            $('#themeToggle i').removeClass('fa-sun').addClass('fa-moon');
+            $('.theme-toggle-btn i').removeClass('fa-sun').addClass('fa-moon');
         }
     }
 
     var savedTheme = localStorage.getItem('siteTheme') || 'light';
     applyTheme(savedTheme);
 
-    $('#themeToggle').click(function() {
+    $('.theme-toggle-btn').click(function() {
         var theme = $('body').hasClass('dark-mode') ? 'light' : 'dark';
         applyTheme(theme);
         localStorage.setItem('siteTheme', theme);
@@ -142,7 +142,15 @@
         if (!term) {
             return;
         }
-        if (!highlightSearch(term)) {
+        if (highlightSearch(term)) {
+            var modalEl = document.getElementById('searchModal');
+            if (modalEl) {
+                var modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+                if (modal) {
+                    modal.hide();
+                }
+            }
+        } else {
             alert('No matching content found. Try a different keyword.');
         }
     });
@@ -358,6 +366,28 @@
         var $label = $(this).closest('.col-12').find('.form-label');
         if ($label.length) {
             $label.text('Upload CV (selected: ' + file.name + ')');
+        }
+    });
+
+    // Career page Apply button handling
+    $(document).on('click', '.apply-job-btn', function() {
+        var jobName = $(this).data('job');
+        $('#positionInput').val(jobName);
+        var $applySec = $('#applySection');
+        if ($applySec.length) {
+            $('html, body').animate({
+                scrollTop: $applySec.offset().top - 100
+            }, 600);
+        }
+    });
+
+    // More destinations button logic on homepage
+    $(document).on('click', '#moreDestinationsBtn', function(e) {
+        if ($('.country-more').hasClass('d-none')) {
+            e.preventDefault();
+            $('.country-more').removeClass('d-none').hide().fadeIn(800);
+            $(this).text('View All Countries Details');
+            $(this).attr('href', 'other-countries.html');
         }
     });
 

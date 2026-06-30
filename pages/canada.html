@@ -83,7 +83,7 @@
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                <button id="themeToggle" class="btn btn-secondary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+                <button class="btn btn-secondary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3 theme-toggle-btn" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
                 <a href="consultation.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get A Quote</a>
             </div>
         </nav>
@@ -163,7 +163,7 @@
             </ol>
         </div>
 
-        <h4 class="mt-4">Canada FAQs</h4>
+        <h4 class="mt-4" id="faq">Canada FAQs</h4>
         <div class="accordion" id="faqCanada">
             <div class="accordion-item mb-3">
                 <h2 class="accordion-header" id="cfaqOne">
@@ -187,18 +187,6 @@
                 </h2>
                 <div id="ccollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqCanada">
                     <div class="accordion-body">Yes. We have Canadian-based consultants who can provide local guidance and liaise with provincial partners where appropriate.</div>
-                </div>
-            </div>
-        </div>
-
-        <h4 class="mt-4">FAQs</h4>
-        <div class="accordion" id="faqCanada">
-            <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="cfaqOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ccollapseOne">How long does Express Entry take?</button>
-                </h2>
-                <div id="ccollapseOne" class="accordion-collapse collapse" data-bs-parent="#faqCanada">
-                    <div class="accordion-body">Processing times vary; typical timelines are 6-12 months depending on program and circumstances.</div>
                 </div>
             </div>
         </div>
@@ -321,6 +309,7 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <button class="btn btn-secondary btn-lg-square theme-toggle-btn theme-toggle-float" type="button" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
 
     <!-- Chatbot Widget -->
     <button class="chatbot-toggle" aria-label="Open chat"><i class="fas fa-comments"></i></button>
