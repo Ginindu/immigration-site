@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <!-- Definitions of gradients, markers, filters -->
+  <defs>
+    <!-- Background Gradient (Slate Gray Theme) -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <!-- Node Gradient -->
+    <linearGradient id="node-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+
+    <!-- Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748B" />
+    </marker>
+  </defs>
+
+  <style>
+    .title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 700; fill: #1E293B; }
+    .subtitle { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 500; fill: #475569; }
+    .step-num { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 11px; fill: #64748B; letter-spacing: 1px; }
+    .step-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 14px; fill: #0F172A; }
+    .step-desc { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #475569; }
+    .flow-line { fill: none; stroke: #94A3B8; stroke-width: 2.5; stroke-dasharray: 4 4; }
+    .arrow-text { font-family: 'Inter', system-ui, sans-serif; font-weight: 600; font-size: 11px; fill: #475569; text-anchor: middle; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16" />
+
+  <!-- Main Title -->
+  <text x="50" y="55" class="title" font-size="24">User Journey Storyboard</text>
+  <text x="50" y="80" class="subtitle" font-size="13">Apex-Trust-Ardent Interaction Flow &amp; System Responses</text>
+
+  <!-- ==================== FLOW LINES ==================== -->
+  <!-- Step 1 to 2 -->
+  <path d="M 310 185 L 380 185" class="flow-line" marker-end="url(#arrow)" />
+  <text x="345" y="172" class="arrow-text">Explore More</text>
+
+  <!-- Step 2 to 3 -->
+  <path d="M 640 185 L 710 185" class="flow-line" marker-end="url(#arrow)" />
+  <text x="675" y="172" class="arrow-text">Get A Quote</text>
+
+  <!-- Step 3 to 4 -->
+  <path d="M 830 240 L 830 330 M 830 330 L 190 330 L 190 395" class="flow-line" marker-end="url(#arrow)" />
+  <text x="510" y="320" class="arrow-text">Browse Open Vacancies</text>
+
+  <!-- Step 4 to 5 -->
+  <path d="M 310 455 L 380 455" class="flow-line" marker-end="url(#arrow)" />
+  <text x="345" y="442" class="arrow-text">Submit Application</text>
+
+  <!-- Step 5 to 6 -->
+  <path d="M 640 455 L 710 455" class="flow-line" marker-end="url(#arrow)" />
+  <text x="675" y="442" class="arrow-text">Find Office</text>
+
+
+  <!-- ==================== STAGE CARDS ==================== -->
+
+  <!-- STEP 1: DISCOVERY -->
+  <g transform="translate(50, 130)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 01 — DISCOVERY</text>
+    <text x="24" y="52" class="step-title">Home Page Landing</text>
+    <text x="24" y="74" class="step-desc">User explores service pillars and interacts</text>
+    <text x="24" y="90" class="step-desc">with the chatbot or dark theme toggler.</text>
+  </g>
+
+  <!-- STEP 2: EXPLORATION -->
+  <g transform="translate(380, 130)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 02 — EXPLORATION</text>
+    <text x="24" y="52" class="step-title">Service Details &amp; FAQs</text>
+    <text x="24" y="74" class="step-desc">User views visa guidelines (Canada/Others)</text>
+    <text x="24" y="90" class="step-desc">and clicks accordion to expand FAQs.</text>
+  </g>
+
+  <!-- STEP 3: ACTION / BOOKING -->
+  <g transform="translate(710, 130)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 03 — ACTION</text>
+    <text x="24" y="52" class="step-title">Consultation Booking</text>
+    <text x="24" y="74" class="step-desc">User fills booking form, selecting visa route</text>
+    <text x="24" y="90" class="step-desc">and submits to receive a confirmation popup.</text>
+  </g>
+
+  <!-- STEP 4: CAREERS -->
+  <g transform="translate(60, 400)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 04 — CAREERS</text>
+    <text x="24" y="52" class="step-title">Explore Careers</text>
+    <text x="24" y="74" class="step-desc">User clicks a job role which pre-fills the</text>
+    <text x="24" y="90" class="step-desc">form and scrolls smoothly to target section.</text>
+  </g>
+
+  <!-- STEP 5: APPLICATION -->
+  <g transform="translate(380, 400)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 05 — SUBMISSION</text>
+    <text x="24" y="52" class="step-title">CV &amp; Application Form</text>
+    <text x="24" y="74" class="step-desc">User fills cover letter text, attaches CV</text>
+    <text x="24" y="90" class="step-desc">file, and submits with real-time feedback.</text>
+  </g>
+
+  <!-- STEP 6: CONTACT & VISIT -->
+  <g transform="translate(710, 400)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="url(#node-grad)" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect width="8" height="110" rx="3" fill="#64748B" />
+    <text x="24" y="30" class="step-num">STAGE 06 — VISIT OFFICE</text>
+    <text x="24" y="52" class="step-title">Interactive Maps</text>
+    <text x="24" y="74" class="step-desc">User locates local offices (Colombo/Galle)</text>
+    <text x="24" y="90" class="step-desc">using the embedded responsive Google Maps.</text>
+  </g>
+</svg>

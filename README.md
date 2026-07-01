@@ -45,5 +45,5 @@ All required design artifacts are located under the `/design` folder:
 ## 5. How to Run the Project
 Since this is a client-side web application built using HTML5, CSS3, Javascript, and Bootstrap:
 1.  Navigate to the project root directory.
-2.  Double-click the entry-point **`index.html`** file in your local file browser (this will trigger an automatic redirect to `pages/index.html`).
+2.  Double-click the entry-point **`index.html`** file in your local file browser (this will trigger an automatic redirect to `src/index.html`).
 3.  Alternatively, open the project folder in an editor (like VS Code) and run it using the **Live Server** extension to preview the responsive transitions, forms, and theme states.

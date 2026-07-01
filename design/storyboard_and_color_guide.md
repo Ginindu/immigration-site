@@ -29,7 +29,7 @@ graph TD
 ### Step 2: Exploration (Detail Pages)
 *   **User Action:** Intrigued by Canadian pathways, the user clicks "Explore More" on the Canada card or uses the navbar dropdown.
 *   **Interface Response:** 
-    *   The user is navigated to [canada.html](file:///d:/documents/immigration%20site/pages/canada.html) where they find structured Express Entry checklists.
+    *   The user is navigated to `canada.html` where they find structured Express Entry checklists.
     *   The user clicks through the **Canada FAQ Accordion** to find information on points and processing.
 
 ### Step 3: Action (Consultation Booking)
@@ -69,7 +69,7 @@ Optimized for high readability under standard office lighting, utilizing deep co
 
 ---
 
-### 3. Dark Mode System (Premium Sleek)
+### 2. Dark Mode System (Premium Sleek)
 A curated dark theme designed to reduce eye strain in low-light environments, using glowing secondary highlights and deep navy layers:
 
 | Token Name | Hex Code | Visual Sample | Usage Area |
