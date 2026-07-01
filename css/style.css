@@ -1726,3 +1726,41 @@ body.dark-mode .chatbot-input input {
 .theme-toggle-float:hover {
     transform: scale(1.1);
 }
+
+/* Global responsiveness safety */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Mobile responsive font sizing and spacing overrides */
+@media (max-width: 575.98px) {
+    .navbar-brand h1 {
+        font-size: 1.35rem !important;
+    }
+    .navbar-brand img {
+        max-height: 35px !important;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+    .carousel-caption p {
+        font-size: 0.95rem !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .carousel-caption h4 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-caption h1 {
+        font-size: 2.5rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1.1rem !important;
+    }
+}

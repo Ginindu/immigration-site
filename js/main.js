@@ -172,19 +172,22 @@
 
     function getChatbotReply(message) {
         message = message.toLowerCase();
+        if (message.indexOf('free') !== -1 || message.indexOf('promotion') !== -1 || message.indexOf('announcement') !== -1) {
+            return 'Currently, we are promoting government free-of-charge visa programs for select quick visa countries, and up to 70% scholarships for students and trained nurses. Contact us to learn more!';
+        }
         if (message.indexOf('visa') !== -1) {
-            return 'We can help with Canadian, Australian, UK, US and European visas. Which destination are you interested in?';
+            return 'We can help with Canada, Australia, New Zealand, UK, US, and European visas. Which destination are you interested in?';
         }
-        if (message.indexOf('scholarship') !== -1 || message.indexOf('study') !== -1) {
-            return 'We provide scholarship guidance for A/L students, nurses, MSc/PhD programs and short-term diploma options.';
+        if (message.indexOf('scholarship') !== -1 || message.indexOf('study') !== -1 || message.indexOf('nurse') !== -1 || message.indexOf('a/l') !== -1) {
+            return 'We offer up to 70% scholarship opportunities for after-A/L students, trained nurses, MSc/PhD candidates, and short-term diploma programs in Canada, Australia, and the UK.';
         }
-        if (message.indexOf('contact') !== -1 || message.indexOf('office') !== -1) {
-            return 'Our Head Office is in Kollupitiya, Sri Lanka. We also have an Atlantic Canada regional office and a branch in Galle.';
+        if (message.indexOf('contact') !== -1 || message.indexOf('office') !== -1 || message.indexOf('location') !== -1) {
+            return 'We operate through three major offices: our Head Office in Kollupitiya (Colombo), our regional office in Atlantic Canada, and our branch office in Galle.';
         }
-        if (message.indexOf('legal') !== -1 || message.indexOf('appeal') !== -1) {
-            return 'We support immigration appeals, visa refusals, refugee law, citizenship and residency services.';
+        if (message.indexOf('legal') !== -1 || message.indexOf('appeal') !== -1 || message.indexOf('refusal') !== -1) {
+            return 'Our legal services cover visa refusals, immigration appeals, refugee law, and citizenship/residency representation. You can upload refusal letters for review on our Legal page.';
         }
-        return 'Hello! Ask me about Canada immigration, student visas, scholarships or our office locations.';
+        return 'Hello! I am the Gen-Ardent AI Assistant. Ask me about our free visa promotions, 70% scholarships, office locations, or legal appeals!';
     }
 
     $('.chatbot-toggle').click(function() {
@@ -389,6 +392,66 @@
             $(this).text('View All Countries Details');
             $(this).attr('href', 'other-countries.html');
         }
+    });
+
+    // Pathway Finder Widget Handler
+    $(document).on('click', '.finder-btn', function() {
+        var nextStep = $(this).data('next');
+        var val = $(this).data('val');
+
+        // Hide current step
+        $(this).closest('.finder-step').addClass('d-none');
+
+        if (nextStep === 'step2-study') {
+            $('#finderStep2Study').removeClass('d-none').hide().fadeIn(400);
+        } else if (nextStep === 'step2-migrate') {
+            $('#finderStep2Migrate').removeClass('d-none').hide().fadeIn(400);
+        } else {
+            // Result step
+            var title = "";
+            var desc = "";
+            var link = "";
+
+            if (nextStep === 'result-legal') {
+                title = "Legal Services & Appeals";
+                desc = "We recommend our specialized legal advisory for visa rejections, administrative reviews, and refugee appeals. Work directly with our registered legal advocates.";
+                link = "legal.html";
+            } else if (nextStep === 'result-canada-study') {
+                title = "Canada Study Pathway";
+                desc = "We recommend pursuing a study permit in Canada. Academic programs lead directly to Post-Graduation Work Permits (PGWP) and permanent residency pathways.";
+                link = "canada.html";
+            } else if (nextStep === 'result-other-study') {
+                title = "Global Study Programs";
+                desc = "We recommend student visas or 70% scholarship opportunities for Australia, the United Kingdom, New Zealand, USA, and Europe.";
+                link = "other-countries.html";
+            } else if (nextStep === 'result-skilled-worker') {
+                title = "Canada Express Entry & Skilled Migration";
+                desc = "Based on your professional credentials, you may qualify for the Federal Skilled Worker Program or Provincial Nominee Programs (PNP).";
+                link = "canada.html";
+            } else if (nextStep === 'result-other-migrate') {
+                title = "General Relocation & Sponsorships";
+                desc = "We suggest exploring family sponsorship or regional relocation pathways for Australia, NZ, UK, or Europe.";
+                link = "other-countries.html";
+            }
+
+            $('#recommendationTitle').text(title);
+            $('#recommendationDesc').text(desc);
+            $('#recommendationLink').attr('href', link);
+            $('#finderResult').removeClass('d-none').hide().fadeIn(400);
+        }
+    });
+
+    $(document).on('click', '.finder-back', function() {
+        var prevStep = $(this).data('prev');
+        $(this).closest('.finder-step').addClass('d-none');
+        if (prevStep == 1) {
+            $('#finderStep1').removeClass('d-none').hide().fadeIn(400);
+        }
+    });
+
+    $(document).on('click', '.finder-reset', function() {
+        $('.finder-step').addClass('d-none');
+        $('#finderStep1').removeClass('d-none').hide().fadeIn(400);
     });
 
 })(jQuery);

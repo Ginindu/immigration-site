@@ -1,0 +1,92 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1800" width="1440" height="1800" style="background:#F9FAFB;">
+  
+
+  <!-- HEADER -->
+  <g id="Header">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="52" font-size="24">Apex-Trust-Ardent</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="520" y="51" font-size="15">Home</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="585" y="51" font-size="15" font-weight="600">About</text>
+    <line x1="585" y1="62" x2="628" y2="62" stroke="#6B7280" stroke-width="2" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="650" y="51" font-size="15">Services [Dropdown]</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="815" y="51" font-size="15">Consultation</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="925" y="51" font-size="15">Career</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="995" y="51" font-size="15">Contact</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1080" y="27" width="36" height="36" rx="18" />
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1130" y="27" width="36" height="36" rx="6" />
+    <rect fill="#9CA3AF" rx="20" x="1180" y="25" width="160" height="40" rx="20" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1225" y="49" font-size="14">Get A Quote</text>
+  </g>
+
+  <!-- PAGE HEADER BANNER -->
+  <g id="Page-Header">
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="0" y="90" width="1440" height="250" />
+    <line x1="0" y1="90" x2="1440" y2="340" stroke="#D1D5DB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="210" font-size="36" text-anchor="middle" fill="#1F2937">About Us</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="250" font-size="14" text-anchor="middle">Home / About Us</text>
+  </g>
+
+  <!-- COMPANY BACKGROUND -->
+  <g id="Background">
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="390" width="580" height="400" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="440" font-size="24">Who We Are</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="480" font-size="15">Apex-Trust-Ardent Immigration Inc is a professional registered global migration consultancy. We assist individuals, families, and corporates to transition smoothly into their destination countries.</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="550" font-size="15">Our team consists of certified practitioners and legal advocates working collectively to provide robust visa strategies.</text>
+
+    <!-- Side Image Box -->
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="710" y="390" width="630" height="400" rx="8" />
+    <line x1="710" y1="390" x2="1340" y2="790" stroke="#D1D5DB" stroke-width="1.5" />
+    <line x1="710" y1="790" x2="1340" y2="390" stroke="#D1D5DB" stroke-width="1.5" />
+  </g>
+
+  <!-- MISSION & VISION -->
+  <g id="Mission-Vision">
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="830" width="590" height="220" />
+    <circle cx="160" cy="880" r="24" fill="#E5E7EB" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="210" y="885" font-size="20">Our Mission</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="940" font-size="14">To deliver transparent, reliable, and success-driven</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="965" font-size="14">immigration pathways for our clients globally.</text>
+
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="750" y="830" width="590" height="220" />
+    <circle cx="810" cy="880" r="24" fill="#E5E7EB" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="860" y="885" font-size="20">Our Vision</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="780" y="940" font-size="14">To be the most trusted global immigration service partner,</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="780" y="965" font-size="14">bridging legal expertise with resettlement dreams.</text>
+  </g>
+
+  <!-- TEAM SECTION -->
+  <g id="Team">
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="1120" font-size="28" text-anchor="middle">Our Leadership Team</text>
+    
+    <!-- Member 1 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1160" width="360" height="340" />
+    <circle cx="280" cy="1250" r="60" fill="#E5E7EB" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="280" y="1350" font-size="18" text-anchor="middle">Senior Consultant</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="280" y="1380" font-size="14" text-anchor="middle">RCIC Certified</text>
+
+    <!-- Member 2 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="540" y="1160" width="360" height="340" />
+    <circle cx="720" cy="1250" r="60" fill="#E5E7EB" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="1350" font-size="18" text-anchor="middle">Legal Advocate</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="1380" font-size="14" text-anchor="middle">Appeals Specialist</text>
+
+    <!-- Member 3 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="980" y="1160" width="360" height="340" />
+    <circle cx="1160" cy="1250" r="60" fill="#E5E7EB" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="1160" y="1350" font-size="18" text-anchor="middle">Client Coordinator</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1160" y="1380" font-size="14" text-anchor="middle">Galle Branch Head</text>
+  </g>
+
+  <!-- FOOTER -->
+  <g id="Footer">
+    <rect x="0" y="1580" width="1440" height="220" fill="#374151" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="100" y="1630" font-size="18">Your global journey starts here.</text>
+    <line x1="100" y1="1660" x2="1340" y2="1660" stroke="#4B5563" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="100" y="1710" font-size="13" fill="#9CA3AF">© 2026 Apex-Trust-Ardent Immigration. All rights reserved.</text>
+    <rect fill="#9CA3AF" rx="20" x="1230" y="1600" width="45" height="45" rx="5" fill="#4B5563" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1248" y="1627" font-size="12">T</text>
+    <rect fill="#9CA3AF" rx="20" x="1295" y="1600" width="45" height="45" rx="5" fill="#6B7280" />
+    <path d="M1310 1628 l7 -7 l7 7" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  </g>
+</svg>
+

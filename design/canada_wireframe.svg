@@ -1,0 +1,99 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1800" width="1440" height="1800" style="background:#F9FAFB;">
+  
+
+  <!-- HEADER -->
+  <g id="Header">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="52" font-size="24">Apex-Trust-Ardent</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="520" y="51" font-size="15">Home</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="585" y="51" font-size="15">About</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="650" y="51" font-size="15" font-weight="600">Services [Dropdown]</text>
+    <line x1="650" y1="62" x2="800" y2="62" stroke="#6B7280" stroke-width="2" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="815" y="51" font-size="15">Consultation</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="925" y="51" font-size="15">Career</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="995" y="51" font-size="15">Contact</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1080" y="27" width="36" height="36" rx="18" />
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1130" y="27" width="36" height="36" rx="6" />
+    <rect fill="#9CA3AF" rx="20" x="1180" y="25" width="160" height="40" rx="20" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1225" y="49" font-size="14">Get A Quote</text>
+  </g>
+
+  <!-- PAGE HEADER BANNER -->
+  <g id="Page-Header">
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="0" y="90" width="1440" height="250" />
+    <line x1="0" y1="90" x2="1440" y2="340" stroke="#D1D5DB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="210" font-size="36" text-anchor="middle" fill="#1F2937">Canada Immigration</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="250" font-size="14" text-anchor="middle">Home / Services / Canada Immigration</text>
+  </g>
+
+  <!-- CORE CONTENT -->
+  <g id="Core-Content">
+    <!-- Left Column: Details -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="390" width="790" height="800" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="140" y="450" font-size="24">Express Entry &amp; PNPs</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="140" y="490" font-size="15">Canada offers several economic immigration pathways for skilled workers seeking permanent residency.</text>
+    
+    <!-- Image block inside content -->
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="140" y="530" width="710" height="220" rx="6" />
+    <line x1="140" y1="530" x2="850" y2="750" stroke="#D1D5DB" stroke-width="1.5" />
+    <line x1="140" y1="750" x2="850" y2="530" stroke="#D1D5DB" stroke-width="1.5" />
+
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="140" y="800" font-size="20">Required Documents Checklist</text>
+    <circle cx="150" cy="840" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="845" font-size="14">Educational Credential Assessment (ECA) report.</text>
+    <circle cx="150" cy="875" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="880" font-size="14">Language proficiency test scores (IELTS or CELPIP).</text>
+    <circle cx="150" cy="910" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="915" font-size="14">Proof of settlement funds and bank records.</text>
+
+    <!-- Right Column: Sidebar -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="920" y="390" width="420" height="400" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="950" y="440" font-size="20">Quick Assessment</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="950" y="475" font-size="14">Check your eligibility for Canadian migration programs.</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="510" width="360" height="40" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="965" y="535" font-size="13">Select Age Bracket</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="565" width="360" height="40" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="965" y="590" font-size="13">Highest Degree Completed</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="620" width="360" height="40" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="965" y="645" font-size="13">IELTS Listening Score</text>
+    <rect fill="#9CA3AF" rx="20" x="950" y="690" width="360" height="45" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1130" y="718" font-size="14" text-anchor="middle">Calculate Points</text>
+  </g>
+
+  <!-- CANADA FAQ ACCORDION -->
+  <g id="Canada-FAQs">
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="1250" font-size="24">Canada FAQs</text>
+    
+    <!-- FAQ 1 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1280" width="1240" height="50" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1312" font-size="15">How long does Express Entry take?</text>
+    <path d="M1300 1300 l6 6 l6 -6" stroke="#4B5563" stroke-width="2" fill="none" />
+    
+    <!-- FAQ 2 (Expanded Mode) -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1345" width="1240" height="120" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1377" font-size="15">Do I need an ECA for study vs work applications?</text>
+    <path d="M1300 1380 l6 -6 l6 6" stroke="#4B5563" stroke-width="2" fill="none" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="1415" font-size="13">An ECA is usually required for economic immigration streams (Express Entry). Study permits</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="1435" font-size="13">generally rely on acceptance letters and academic transcripts.</text>
+
+    <!-- FAQ 3 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1480" width="1240" height="50" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1512" font-size="15">Can Apex-Trust-Ardent represent me in Canada-based processes?</text>
+    <path d="M1300 1500 l6 6 l6 -6" stroke="#4B5563" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- FOOTER -->
+  <g id="Footer">
+    <rect x="0" y="1580" width="1440" height="220" fill="#374151" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="100" y="1630" font-size="18">Your global journey starts here.</text>
+    <line x1="100" y1="1660" x2="1340" y2="1660" stroke="#4B5563" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="100" y="1710" font-size="13" fill="#9CA3AF">© 2026 Apex-Trust-Ardent Immigration. All rights reserved.</text>
+    
+    <!-- Floating widgets -->
+    <rect fill="#9CA3AF" rx="20" x="1230" y="1600" width="45" height="45" rx="5" fill="#4B5563" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1248" y="1627" font-size="12">T</text>
+    <rect fill="#9CA3AF" rx="20" x="1295" y="1600" width="45" height="45" rx="5" fill="#6B7280" />
+    <path d="M1310 1628 l7 -7 l7 7" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  </g>
+</svg>
+

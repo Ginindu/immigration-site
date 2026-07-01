@@ -1,0 +1,276 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 2360" width="1440" height="2360" style="background:#F9FAFB;">
+  
+
+  <!-- 12-COLUMN LAYOUT GRID (Editable/Toggleable in Figma) -->
+  <g id="Layout-Grid" name="12-Column Grid (Toggle in Figma)" opacity="0.8">
+    <rect fill="#9CA3AF" opacity="0.03" x="100" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="205.3" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="310.6" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="416" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="521.3" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="626.6" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="732" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="837.3" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="942.6" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="1048" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="1153.3" y="0" width="81.3" height="2360" />
+    <rect fill="#9CA3AF" opacity="0.03" x="1258.6" y="0" width="81.3" height="2360" />
+  </g>
+
+  <!-- HEADER NAVIGATION -->
+  <g id="Header" name="Header Navigation">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+    <!-- Logo -->
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="52" font-size="24">Apex-Trust-Ardent</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="315" y="32" width="28" height="28" rx="4" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="323" y="50" font-size="12" font-weight="bold">L</text>
+
+    <!-- Nav Links -->
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="520" y="51" font-size="15" font-weight="600">Home</text>
+    <line x1="520" y1="62" x2="563" y2="62" stroke="#6B7280" stroke-width="2" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="585" y="51" font-size="15">About</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="650" y="51" font-size="15">Services [Dropdown]</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="815" y="51" font-size="15">Consultation</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="925" y="51" font-size="15">Career</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="995" y="51" font-size="15">Contact</text>
+
+    <!-- Header Actions -->
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1080" y="27" width="36" height="36" rx="18" />
+    <path d="M1094 45 l4-4 m-2 0 a4 4 0 1 0 -4-4" stroke="#6B7280" stroke-width="2" fill="none" />
+    
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1130" y="27" width="36" height="36" rx="6" />
+    <circle cx="1148" cy="45" r="8" fill="none" stroke="#6B7280" stroke-width="2" />
+
+    <rect fill="#9CA3AF" rx="20" x="1180" y="25" width="160" height="40" rx="20" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1225" y="49" font-size="14">Get A Quote</text>
+  </g>
+
+  <!-- HERO CAROUSEL -->
+  <g id="Hero" name="Hero Carousel">
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="0" y="90" width="1440" height="540" />
+    <!-- Image Crossing Lines -->
+    <line x1="0" y1="90" x2="1440" y2="630" stroke="#D1D5DB" stroke-width="1.5" />
+    <line x1="0" y1="630" x2="1440" y2="90" stroke="#D1D5DB" stroke-width="1.5" />
+    
+    <!-- Hero Box Overlay -->
+    <rect x="270" y="190" width="900" height="340" fill="#FFFFFF" opacity="0.9" rx="12" stroke="#D1D5DB" stroke-width="1" />
+    
+    <!-- Hero Text Content -->
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="320" y="270" font-size="40" text-anchor="start">Immigration Process Starts Here!</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="320" y="320" font-size="16">Embark on your journey to live, study, or work abroad. We offer comprehensive immigration</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="320" y="345" font-size="16">solutions tailored to your unique profile, from visa application to successful resettlement.</text>
+
+    <!-- Hero Buttons -->
+    <rect fill="#9CA3AF" rx="20" x="320" y="400" width="180" height="50" rx="25" fill="#4B5563" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="372" y="430" font-size="15">More Details</text>
+    
+    <!-- Carousel Dots -->
+    <circle cx="700" cy="500" r="5" fill="#4B5563" />
+    <circle cx="720" cy="500" r="5" fill="#D1D5DB" />
+    <circle cx="740" cy="500" r="5" fill="#D1D5DB" />
+  </g>
+
+  <!-- CORE SERVICE PILLARS -->
+  <g id="Service-Pillars" name="Service Pillars">
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="700" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1.5">SERVICE PILLARS</text>
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="740" font-size="32" text-anchor="middle">Our Core Immigration Services</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="775" font-size="16" text-anchor="middle">We provide specialized, step-by-step guidance across our three core service pillars.</text>
+
+    <!-- Card 1: Canada -->
+    <g name="Service Card 1 (Canada)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="820" width="390" height="380" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="100" y="820" width="390" height="180" rx="8" />
+      <line x1="100" y1="820" x2="490" y2="1000" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="100" y1="1000" x2="490" y2="820" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1040" font-size="20">Canada Immigration</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="1080" font-size="14">Express Entry, Provincial Nominee Programs</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="1105" font-size="14">(PNPs), family sponsorships, and permits.</text>
+      <rect fill="#9CA3AF" rx="20" x="130" y="1135" width="140" height="36" rx="18" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="165" y="1157" font-size="13">Explore More</text>
+    </g>
+
+    <!-- Card 2: Other Countries -->
+    <g name="Service Card 2 (Other)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="525" y="820" width="390" height="380" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="525" y="820" width="390" height="180" rx="8" />
+      <line x1="525" y1="820" x2="915" y2="1000" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="525" y1="1000" x2="915" y2="820" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="555" y="1040" font-size="20">Other Countries</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="1080" font-size="14">Migration pathways, student visas, and work</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="1105" font-size="14">permits for Australia, UK, USA, and NZ.</text>
+      <rect fill="#9CA3AF" rx="20" x="555" y="1135" width="140" height="36" rx="18" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="590" y="1157" font-size="13">Explore More</text>
+    </g>
+
+    <!-- Card 3: Legal Services -->
+    <g name="Service Card 3 (Legal)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="950" y="820" width="390" height="380" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="820" width="390" height="180" rx="8" />
+      <line x1="950" y1="820" x2="1340" y2="1000" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="950" y1="1000" x2="1340" y2="820" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="980" y="1040" font-size="20">Legal Services</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="1080" font-size="14">Immigration appeals, visa refusals, refugee</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="1105" font-size="14">status claims, and judicial representation.</text>
+      <rect fill="#9CA3AF" rx="20" x="980" y="1135" width="140" height="36" rx="18" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1015" y="1157" font-size="13">Explore More</text>
+    </g>
+  </g>
+
+  <!-- WHY CHOOSE US FEATURES -->
+  <g id="Why-Choose-Us" name="Why Choose Us Features">
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="1280" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1.5">WHY CHOOSE US</text>
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="1320" font-size="32" text-anchor="middle">Enabling Your Relocation Successfully</text>
+
+    <!-- Feature 1 -->
+    <g name="Feature Card 1">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1370" width="280" height="220" />
+      <circle cx="240" cy="1420" r="30" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="240" y="1475" font-size="18" text-anchor="middle">Cost-Effective</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="240" y="1510" font-size="13" text-anchor="middle">Transparent and competitive rates</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="240" y="1530" font-size="13" text-anchor="middle">with zero hidden costs.</text>
+    </g>
+    <!-- Feature 2 -->
+    <g name="Feature Card 2">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="410" y="1370" width="280" height="220" />
+      <circle cx="550" cy="1420" r="30" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="550" y="1475" font-size="18" text-anchor="middle">Visa Assistance</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="550" y="1510" font-size="13" text-anchor="middle">End-to-end support for filing</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="550" y="1530" font-size="13" text-anchor="middle">and checklists preparation.</text>
+    </g>
+    <!-- Feature 3 -->
+    <g name="Feature Card 3">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="720" y="1370" width="280" height="220" />
+      <circle cx="860" cy="1420" r="30" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="860" y="1475" font-size="18" text-anchor="middle">Faster Processing</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="860" y="1510" font-size="13" text-anchor="middle">Optimized compiling pipelines</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="860" y="1530" font-size="13" text-anchor="middle">to minimize wait delays.</text>
+    </g>
+    <!-- Feature 4 -->
+    <g name="Feature Card 4">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="1030" y="1370" width="280" height="220" />
+      <circle cx="1170" cy="1420" r="30" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="1170" y="1475" font-size="18" text-anchor="middle">Direct Interviews</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1170" y="1510" font-size="13" text-anchor="middle">Direct mock preparation reviews</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1170" y="1530" font-size="13" text-anchor="middle">with registered lawyers.</text>
+    </g>
+  </g>
+
+  <!-- COUNTRIES WE SERVICE -->
+  <g id="Countries-We-Service" name="Countries We Service Grid">
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="1670" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1.5">COUNTRIES WE SERVICE</text>
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="1710" font-size="32" text-anchor="middle">Immigration &amp; Visa Services for Key Destinations</text>
+
+    <!-- Card 1: Canada -->
+    <g name="Country Card 1 (Canada)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1810" width="390" height="220" />
+      <line x1="100" y1="1810" x2="490" y2="2030" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="100" y1="2030" x2="490" y2="1810" stroke="#D1D5DB" stroke-width="1" />
+      <circle cx="245" cy="1810" r="28" fill="#9CA3AF" stroke="#FFFFFF" stroke-width="4" />
+      <path d="M238 1810 l14 0 m-7 -7 l0 14" stroke="#FFFFFF" stroke-width="2" />
+      <rect x="200" y="1900" width="190" height="40" fill="#4B5563" rx="6" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="295" y="1924" font-size="16" text-anchor="middle">Canada</text>
+    </g>
+    <!-- Card 2: Australia -->
+    <g name="Country Card 2 (Australia)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="525" y="1810" width="390" height="220" />
+      <line x1="525" y1="1810" x2="915" y2="2030" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="525" y1="2030" x2="915" y2="1810" stroke="#D1D5DB" stroke-width="1" />
+      <circle cx="670" cy="1810" r="28" fill="#9CA3AF" stroke="#FFFFFF" stroke-width="4" />
+      <circle cx="670" cy="1810" r="10" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <rect x="625" y="1900" width="190" height="40" fill="#4B5563" rx="6" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="720" y="1924" font-size="16" text-anchor="middle">Australia</text>
+    </g>
+    <!-- Card 3: New Zealand -->
+    <g name="Country Card 3 (NZ)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="950" y="1810" width="390" height="220" />
+      <line x1="950" y1="1810" x2="1340" y2="2030" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="950" y1="2030" x2="1340" y2="1810" stroke="#D1D5DB" stroke-width="1" />
+      <circle cx="1095" cy="1810" r="28" fill="#9CA3AF" stroke="#FFFFFF" stroke-width="4" />
+      <circle cx="1095" cy="1810" r="10" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <rect x="1050" y="1900" width="190" height="40" fill="#4B5563" rx="6" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1145" y="1924" font-size="16" text-anchor="middle">New Zealand</text>
+    </g>
+
+    <!-- Hidden Countries Group (d-none mock) -->
+    <g name="Hidden Countries (Revealed by Button in Figma/HTML)" opacity="0.4" stroke-dasharray="4 4">
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="2070" font-size="12" text-anchor="middle">[Hidden initially: UK, USA, Europe cards]</text>
+    </g>
+
+    <!-- More Destinations Button -->
+    <rect fill="#9CA3AF" rx="20" x="610" y="2090" width="220" height="48" rx="24" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="720" y="2119" font-size="14" text-anchor="middle">More Destinations</text>
+  </g>
+
+  <!-- WORLDWIDE OFFICES -->
+  <g id="Worldwide-Offices" name="Worldwide Offices Cards">
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="2220" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1.5">OFFICES</text>
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="2260" font-size="32" text-anchor="middle">Worldwide Offices</text>
+
+    <!-- Office 1: Colombo -->
+    <g name="Office 1 (Colombo)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="2310" width="390" height="340" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="100" y="2310" width="390" height="150" rx="8" />
+      <line x1="100" y1="2310" x2="490" y2="2460" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="100" y1="2460" x2="490" y2="2310" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="2490" font-size="18">Colombo, Sri Lanka</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="2515" font-size="13" font-weight="600">Head Office - Kollupitiya</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="2545" font-size="13">Phone: +94 11 123 4567</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="2570" font-size="13">Email: info@apextrustardent.lk</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="130" y="2595" font-size="13">Address: 123 Ocean Avenue, Colombo</text>
+      <!-- Map Box -->
+      <rect x="130" y="2615" width="330" height="20" fill="#F3F4F6" stroke="#D1D5DB" rx="4" />
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="295" y="2629" font-size="10" text-anchor="middle">[ Google Maps Embed Placeholder ]</text>
+    </g>
+
+    <!-- Office 2: Canada -->
+    <g name="Office 2 (Canada)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="525" y="2310" width="390" height="340" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="525" y="2310" width="390" height="150" rx="8" />
+      <line x1="525" y1="2310" x2="915" y2="2460" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="525" y1="2460" x2="915" y2="2310" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="555" y="2490" font-size="18">Atlantic Canada</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="2515" font-size="13" font-weight="600">Regional Office</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="2545" font-size="13">Phone: +1 902 123 4567</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="2570" font-size="13">Email: canada@apextrustardent.com</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="555" y="2595" font-size="13">Address: Atlantic Provinces, Canada</text>
+      <!-- Map Box -->
+      <rect x="555" y="2615" width="330" height="20" fill="#F3F4F6" stroke="#D1D5DB" rx="4" />
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="2629" font-size="10" text-anchor="middle">[ Google Maps Embed Placeholder ]</text>
+    </g>
+
+    <!-- Office 3: Galle -->
+    <g name="Office 3 (Galle)">
+      <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="950" y="2310" width="390" height="340" />
+      <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="2310" width="390" height="150" rx="8" />
+      <line x1="950" y1="2310" x2="1340" y2="2460" stroke="#D1D5DB" stroke-width="1" />
+      <line x1="950" y1="2460" x2="1340" y2="2310" stroke="#D1D5DB" stroke-width="1" />
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="980" y="2490" font-size="18">Galle, Sri Lanka</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="2515" font-size="13" font-weight="600">Branch Office</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="2545" font-size="13">Phone: +94 91 765 4321</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="2570" font-size="13">Email: galle@apextrustardent.lk</text>
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="980" y="2595" font-size="13">Address: 22 Sea Street, Galle, Sri Lanka</text>
+      <!-- Map Box -->
+      <rect x="980" y="2615" width="330" height="20" fill="#F3F4F6" stroke="#D1D5DB" rx="4" />
+      <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1145" y="2629" font-size="10" text-anchor="middle">[ Google Maps Embed Placeholder ]</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <g id="Footer" name="Footer">
+    <rect x="0" y="2710" width="1440" height="300" fill="#374151" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="100" y="2760" font-size="20">Your global journey starts here.</text>
+    <line x1="100" y1="2790" x2="1340" y2="2790" stroke="#4B5563" stroke-width="1" />
+    
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="100" y="2840" font-size="14" fill="#9CA3AF">© 2026 Apex-Trust-Ardent Immigration. All rights reserved.</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1000" y="2840" font-size="14" fill="#9CA3AF">Privacy Policy  |  Terms of Service  |  Sitemap</text>
+
+    <!-- Floating theme toggle & Scroll to top icons in footer row -->
+    <rect fill="#9CA3AF" rx="20" x="1230" y="2730" width="45" height="45" rx="5" fill="#4B5563" />
+    <circle cx="1252" cy="2752" r="8" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1248" y="2757" font-size="12">T</text>
+
+    <rect fill="#9CA3AF" rx="20" x="1295" y="2730" width="45" height="45" rx="5" fill="#6B7280" />
+    <path d="M1310 2758 l7 -7 l7 7" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  </g>
+</svg>
+

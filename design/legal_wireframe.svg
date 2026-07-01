@@ -1,0 +1,87 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1800" width="1440" height="1800" style="background:#F9FAFB;">
+  
+
+  <!-- HEADER -->
+  <g id="Header">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="52" font-size="24">Apex-Trust-Ardent</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="520" y="51" font-size="15">Home</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="585" y="51" font-size="15">About</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="650" y="51" font-size="15" font-weight="600">Services [Dropdown]</text>
+    <line x1="650" y1="62" x2="800" y2="62" stroke="#6B7280" stroke-width="2" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="815" y="51" font-size="15">Consultation</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="925" y="51" font-size="15">Career</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="995" y="51" font-size="15">Contact</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1080" y="27" width="36" height="36" rx="18" />
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="1130" y="27" width="36" height="36" rx="6" />
+    <rect fill="#9CA3AF" rx="20" x="1180" y="25" width="160" height="40" rx="20" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1225" y="49" font-size="14">Get A Quote</text>
+  </g>
+
+  <!-- PAGE HEADER BANNER -->
+  <g id="Page-Header">
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="0" y="90" width="1440" height="250" />
+    <line x1="0" y1="90" x2="1440" y2="340" stroke="#D1D5DB" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="720" y="210" font-size="36" text-anchor="middle" fill="#1F2937">Legal Services</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="720" y="250" font-size="14" text-anchor="middle">Home / Services / Legal Services</text>
+  </g>
+
+  <!-- CONTENT SECTION -->
+  <g id="Legal-Services-Content">
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="390" width="790" height="800" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="140" y="450" font-size="24">Visa Refusals &amp; Appeals</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="140" y="490" font-size="15">Our dedicated legal team represents clients facing visa rejections, administrative reviews, refugee applications, and citizenship appeal status processes.</text>
+
+    <!-- Block Image Placeholder -->
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="140" y="540" width="710" height="240" rx="6" />
+    <line x1="140" y1="540" x2="850" y2="780" stroke="#D1D5DB" stroke-width="1.5" />
+    <line x1="140" y1="780" x2="850" y2="540" stroke="#D1D5DB" stroke-width="1.5" />
+
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="140" y="820" font-size="20">Judicial Appeal Procedures</text>
+    <circle cx="150" cy="860" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="865" font-size="14">Submission of Notice of Appeal to the Immigration Appeal Division.</text>
+    <circle cx="150" cy="895" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="900" font-size="14">Compiling legal briefs, supportive evidence, and case precedents.</text>
+    <circle cx="150" cy="930" r="6" fill="#6B7280" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="170" y="935" font-size="14">Representation at oral appeal hearings and judicial review filings.</text>
+
+    <!-- Right Sidebar Card -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="920" y="390" width="420" height="400" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="950" y="440" font-size="20">Case Evaluation</text>
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="950" y="475" font-size="14">Have you received a visa refusal letter? Upload it for review.</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="520" width="360" height="80" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="1040" y="565" font-size="13">Drag refusal letter PDF here</text>
+    <rect fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1.5" x="950" y="615" width="360" height="40" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="965" y="640" font-size="13">Brief description of rejection reason</text>
+    <rect fill="#9CA3AF" rx="20" x="950" y="680" width="360" height="45" rx="6" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1130" y="708" font-size="14" text-anchor="middle">Submit Refusal Review</text>
+  </g>
+
+  <!-- FAQS -->
+  <g id="Legal-FAQs">
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="100" y="1250" font-size="24">Legal FAQs</text>
+    
+    <!-- FAQ 1 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1280" width="1240" height="50" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1312" font-size="15">What is the deadline for filing an immigration appeal?</text>
+    <path d="M1300 1300 l6 6 l6 -6" stroke="#4B5563" stroke-width="2" fill="none" />
+    
+    <!-- FAQ 2 -->
+    <rect fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" rx="8" x="100" y="1345" width="1240" height="50" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" fill="#374151" x="130" y="1377" font-size="15">Can I apply for another visa while an appeal is in progress?</text>
+    <path d="M1300 1360 l6 6 l6 -6" stroke="#4B5563" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- FOOTER -->
+  <g id="Footer">
+    <rect x="0" y="1580" width="1440" height="220" fill="#374151" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="100" y="1630" font-size="18">Your global journey starts here.</text>
+    <line x1="100" y1="1660" x2="1340" y2="1660" stroke="#4B5563" stroke-width="1" />
+    <text font-family="system-ui, -apple-system, sans-serif" fill="#6B7280" x="100" y="1710" font-size="13" fill="#9CA3AF">© 2026 Apex-Trust-Ardent Immigration. All rights reserved.</text>
+    <rect fill="#9CA3AF" rx="20" x="1230" y="1600" width="45" height="45" rx="5" fill="#4B5563" />
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="600" fill="#FFFFFF" x="1248" y="1627" font-size="12">T</text>
+    <rect fill="#9CA3AF" rx="20" x="1295" y="1600" width="45" height="45" rx="5" fill="#6B7280" />
+    <path d="M1310 1628 l7 -7 l7 7" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  </g>
+</svg>
+
